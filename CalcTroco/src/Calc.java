@@ -95,7 +95,7 @@ public class Calc {
 					mapTroco.put("Moedas de R$0.05, quantidade", x);
 				}
 
-				if (inteiro < 0.05 && inteiro >= 0.01) {
+				if (decimal < 0.05 && decimal >= 0.01) {
 					double x = decimal / 0.01;
 					decimal -= (0.01 * x);
 					mapTroco.put("Moedas de R$0.01, quantidade", x);

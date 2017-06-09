@@ -14,7 +14,6 @@ public class TesteTroco {
 
 		Calc calcInt = new Calc();
 		calcInt.Calculo(num);
-		
 
 		for (Object key : calcInt.getMapTroco().keySet()) {
 
